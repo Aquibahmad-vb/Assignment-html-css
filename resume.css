@@ -1,0 +1,232 @@
+/* setting max height 500 for canvas */
+.canvas{
+    height: 500px;
+    overflow-y: auto;
+    overflow-x: hidden; 
+    font-size: 14px;
+}
+/* fixing height of container to 200px and 100% width */
+.container{
+    height: 200px;  
+    width: 100%;
+    display: flex; 
+}
+/* divide container into 2 part box 1 and box 2 70-30 % partition */
+.box{
+    height: 182px;
+    margin: 10px;
+    padding: 3px;
+}
+
+#box-1{
+    width: 70%;
+
+}
+#box-2{
+    right: 0;
+    width: 30%;
+    }
+
+    .profilepic{
+        width: 60%;
+        height: 80%;    
+        padding-left: 18%;
+    }
+.personalinfo{
+    position: relative;
+    font-weight: bold;
+    left: 5%;
+}
+#name {
+    font-size: 2.2rem;
+    margin-top: 6%;
+    color: #ff4000;
+}
+#address{
+    bottom: 11%;
+    font-size: 0.9rem;    
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+hr{
+    background: #ff4000;
+    height: 0.08rem;
+}
+.details{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.qualification{
+    margin: 2px;
+    height: 100%;
+}
+/* dividing div into 2 part skills and educational detail 30-70% partition */
+#skills{
+    width: 20%;
+
+}
+#educationaldetail{
+    width: 80%;
+    flex-grow: 2;
+}
+.subheadings{
+    position: relative;
+    color: #ff4000;
+    left: 10%;
+    top: 5%;
+    font-weight: bold;
+
+}
+ol{
+    position: relative;
+    left: 12%;
+    top: 2%;
+    font-weight: bold;
+}
+li{
+    padding: 1.5%;
+}
+.profdetail{
+    position: relative;
+    left: 12%;
+}
+#sub-heading{
+    color: #ff4000;
+    font-size: 1.2rem;
+}
+.course{
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: inline;
+}
+.stream{
+    position: relative;
+    left: 2%;
+    padding: 0;
+    margin: 0;
+}
+.stream h4{
+    margin: 0;
+}
+#compname-teamsize{
+    font-size: 1.2rem;
+}
+
+/* css for max-width 400px */
+
+@media (max-width: 400px){
+.container{
+    height: 150px;
+}
+.box{
+    height: 140px;
+}
+.profilepic{
+    width: 100%;
+    height: 90%;    
+    padding-left: 2%;
+    }
+#name {
+    font-size: 1.8rem;
+    margin-top: 6%;
+    color: #ff4000;
+}
+#address{
+    bottom: 11%;
+    font-size: 0.6rem;    
+}
+}
+.subheadings{
+    font-size: 0.9rem;
+}
+ol{
+    left: 0;
+}
+li{
+    font-size: 0.5rem;
+}
+#sub-heading{
+    font-size: 0.9rem;
+}
+.course{
+    font-size: 0.8rem;
+}
+.stream h4{
+    font-size: 0.5rem;
+}
+#compname-teamsize{
+    font-size: 0.7rem;
+}
+
+/* css for min-width 400px and max-width 700px*/
+@media (min-width: 400px) and (max-width: 700px) {
+    .profilepic{
+        padding-left: 12%;
+        width: 80%;
+        height: 92%;
+    }
+    .subheadings{
+        font-size: 1.6rem;
+    }
+    ol{
+        left: 9%;
+    }
+    li{
+        font-size: 0.9rem;
+    }
+    #sub-heading{
+        font-size: 1.6rem;
+    }
+    .course{
+        font-size: 1rem;
+    }
+    .stream h4{
+        font-size: 0.7rem;
+    }
+    #compname-teamsize{
+        font-size: 0.9rem;
+    }
+}
+
+/* css for min-width 700px and max-width 1600px */
+
+@media (min-width: 700px) and (max-width: 1600px) {
+    .profilepic{
+    width: 59%;
+    height: 99%;
+    padding-left: 7%;
+    }
+    #name{
+        font-size: 2.8rem;
+    }
+    #address {
+        bottom: 17%;
+        font-size: 1.3rem;
+    }
+    .subheadings{
+        font-size: 2rem;
+    }
+    ol{
+        left: 22%;
+    }
+    li{
+        font-size: 1rem;
+    }
+    #sub-heading {
+        font-size: 2rem;
+    }
+    .course{
+        font-size: 1.2rem;
+    }
+    .stream h4{
+        font-size: 0.8rem;
+    }
+    #compname-teamsize{
+        font-size: 0.9rem;
+    }
+}
